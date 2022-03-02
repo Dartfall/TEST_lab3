@@ -23,7 +23,7 @@ public class Humidity extends AbstractCharacteristic
 
     @Override
     public String drawName() {
-        return value();
+        return value() || val();
     }
 
     @Override
